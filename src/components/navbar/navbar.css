@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  position: relative;
+  width: 100vw;
+}
+
+.userType {
+  position: absolute;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.userType span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 40px;
+  /* margin-top: 30px; */
+}
+
+.navMenu li span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+ 
+}
+
+.navMenu li {
+  list-style: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.navMenu li a:hover {
+  color: red;
+}
+
+.navMenu li button {
+  background: transparent;
+  color: #000;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.dropDown {
+  border: 1px solid #ccc;
+  padding: 5px 15px;
+  box-shadow: 0 0 5px #ccc;
+  background-color: #fff;
+  position: absolute;
+  top: 35px;
+  right: -8px;
+  width: 100%;
+}
+
+.dropDown li {
+  list-style: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+.dropDown li:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.dropDown li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,213 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mainComp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bodyImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.bodyText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.bodyText h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #861818;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.bodyText h2 {
+  font-size: 0.5rem;
+  font-weight: 700;
+  margin-top: 8px;
+  color: #000;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.gettingStarted {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.gettingStarted h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(1, 126, 1);
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.gettingStartedButton button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  font-size: 1.1rem;
+  color: aliceblue;
+  background: rgb(1, 126, 1);
+  box-shadow: inset 2px 2px 5px 10px rgb(1, 126, 1);
+  outline: none;
+}
+
+.gettingStartedButton button:hover {
+  background: rgb(1, 126, 1);
+  box-shadow: inset 2px 2px 5px 10px rgb(1, 126, 1);
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.gettingStartedButton button:active {
+  background: rgb(1, 126, 1);
+  box-shadow: inset 2px 2px 5px 10px rgb(1, 126, 1);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.portalInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 80px;
+  padding: 0px;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  font-size: 1.1rem;
+  color: aliceblue;
+  background: rgb(1, 126, 1);
+  box-shadow: inset 2px 2px 5px 10px rgb(1, 126, 1);
+  outline: none;
+}
+
+.card:hover {
+  background: rgb(1, 126, 1);
+  box-shadow: inset 2px 2px 5px 10px rgb(1, 126, 1);
+}
+
+.card:active {
+  background: rgb(1, 126, 1);
+  box-shadow: inset 2px 2px 5px 10px rgb(1, 126, 1);
+  cursor: pointer;
+}
+
+.card:hover {
+  -webkit-animation: shake 0.5s ease-in-out;
+  animation: shake 0.5s ease-in-out;
+}
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+  20% {
+    -webkit-transform: translateX(-10px);
+  }
+
+  40% {
+    -webkit-transform: translateX(10px);
+  }
+
+  60% {
+    -webkit-transform: translateX(-10px);
+  }
+
+  80% {
+    -webkit-transform: translateX(10px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(-10px);
+  }
+
+  40% {
+    transform: translateX(10px);
+  }
+
+  60% {
+    transform: translateX(-10px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.card_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  box-shadow: inset 2px 20px 500px 30px rgb(1, 126, 1);
+}
+
+.card_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+  padding: 30px;
+}
+
+.card_right h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5px;
+    color: #861818;
+}
